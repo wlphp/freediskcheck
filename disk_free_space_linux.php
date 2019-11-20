@@ -1,12 +1,17 @@
 <?php
 //popen此函数必须从php禁用函数里面去掉
-if(function_exists("fsockopen")){
-	//返回数据
+$fun_arr =get_loaded_extensions();
+$disfun_str=ini_get('disable_functions');
+$disfun_arr=explode(",",$disfun_str);
+if(in_array("popen",$disfun_arr)){
 	$rt['sta']='0';
 	$rt['msg']='popen函数被禁用，请检查对应php版本的php.ini';
-	echo json_encode($rt);die;	
-	
+	echo json_encode($rt);die;		
 }
+
+
+
+//业务逻辑
 $fp = popen('df -lh | grep -E "^(/)"',"r");
 $arr=array();
 $i=0;
