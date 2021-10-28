@@ -9,8 +9,11 @@
 2.  源码仅供参考学习使用。
 3. composer使用方法
    <?php
+
    include("vendor/autoload.php");
+
    use   diskfree\HelloComposer;
+
    HelloComposer::test();
 
   
