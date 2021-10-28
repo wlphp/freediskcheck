@@ -1,3 +1,4 @@
+<?php
 namespace wl;
  
 class HelloComposer
@@ -7,3 +8,5 @@ class HelloComposer
     echo "Hello, Composer!", PHP_EOL;
   }
 }
+
+?>
