@@ -1,5 +1,5 @@
 <?php
-namespace wl;
+namespace diskfree;
  
 class HelloComposer
 {
