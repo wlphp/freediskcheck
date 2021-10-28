@@ -1,8 +1,8 @@
 {
-    "name": "diskfreespace/diskfreespace",
+    "name": "disk/freespace",
     "description": "disk-free-space detail",
     "require": {
-        "php": ">=7.4",
-        "another-vendor/package": "1.0"
+        "php": ">=7.0",
+        "another-vendor/package": "1.*"
     }
 }
