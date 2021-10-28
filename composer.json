@@ -3,6 +3,6 @@
     "description": "disk-free-space detail",
     "require": {
         "php": ">=7.0",
-        "another-vendor/package": "1.*"
+        "another-vendor/package": "1.0"
     }
 }
