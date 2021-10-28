@@ -1,5 +1,5 @@
 {
-    "name": "disk-free-space",
+    "name": "diskfreespace/diskfreespace",
     "description": "disk-free-space detail",
     "require": {
         "php": ">=7.4",
