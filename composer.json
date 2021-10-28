@@ -1,0 +1,8 @@
+{
+    "name": "disk-free-space",
+    "description": "disk-free-space detail",
+    "require": {
+        "php": ">=7.4",
+        "another-vendor/package": "1.0"
+    }
+}
