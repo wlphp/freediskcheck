@@ -1,8 +1,14 @@
 {
-    "name": "disk/freespace",
-    "description": "disk-free-space detail",
-    "require": {
-        "php": ">=7.0",
-        "another-vendor/package": "1.0"
-    }
+    "name": "diskfree/check",
+    "description": "disk free left",
+    "require-dev": {
+        "nulpunkt/yesql-php": "^1.4"
+    },
+    "authors": [
+        {
+            "name": "wanglei",
+            "email": "6131545149@qq.com"
+        }
+    ],
+    "require": {}
 }
